@@ -11,6 +11,13 @@
     "**/.svelte-kit": true
   },
 
+  "workbench.colorTheme": "Atom One Dark",
+  "workbench.preferredDarkColorTheme": "Atom One Dark",
+  "workbench.iconTheme": "eq-material-theme-icons-deepforest",
+  "workbench.activityBar.visible": false,
+
+  "window.menuBarVisibility": "toggle",
+
   "editor.maxTokenizationLineLength": 10000000,
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -19,6 +26,15 @@
   },
   "editor.minimap.enabled": false,
   "editor.renderWhitespace": "none",
+
+  // terminal
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.external.linuxExec": "konsole",
+  "terminal.integrated.tabs.defaultIcon": "console",
+  "terminal.integrated.commandsToSkipShell": [
+    // mapped to ctrl+e in vscode
+    "workbench.view.explorer"
+  ],
 
   // svelte
   "svelte.enable-ts-plugin": true,
@@ -37,10 +53,9 @@
     "tuhla"
   ],
 
-  "git.openRepositoryInParentFolders": "never",
-
+  // tailwind
   "tailwind-fold.unfoldIfLineSelected": true,
-  "tailwind-fold.showTailwindImage": false,
+  "tailwind-fold.showTailwindImage": true,
   "tailwind-fold.autoFold": false,
   "tailwindCSS.files.exclude": [
     "**/.git",
@@ -49,6 +64,7 @@
     "**/.svn/**"
   ],
 
+  // go
   "go.toolsManagement.autoUpdate": true,
   "[go]": {
     "editor.defaultFormatter": "golang.go"
@@ -57,21 +73,5 @@
   // copilot
   "github.copilot.enable": {
     "*": true
-  },
-
-  // terminal
-  "terminal.integrated.fontFamily": "MesloLGS NF",
-  "terminal.external.linuxExec": "konsole",
-  "terminal.integrated.tabs.defaultIcon": "console",
-  "terminal.integrated.commandsToSkipShell": [
-    // skip focusing on the explorer when focused in the terminal
-    "workbench.view.explorer"
-  ],
-
-  "workbench.colorTheme": "Atom One Dark",
-  "workbench.preferredDarkColorTheme": "Atom One Dark",
-  "workbench.iconTheme": "eq-material-theme-icons-deepforest",
-  "workbench.activityBar.visible": false,
-
-  "window.menuBarVisibility": "toggle"
+  }
 }
