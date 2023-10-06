@@ -1,0 +1,77 @@
+{
+  "telemetry.telemetryLevel": "off",
+
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 400,
+  "files.insertFinalNewline": true,
+  "files.autoGuessEncoding": true,
+  "files.exclude": {
+    "**/.vscode": true,
+    "**/.turbo": true,
+    "**/.svelte-kit": true
+  },
+
+  "editor.maxTokenizationLineLength": 10000000,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.unicodeHighlight.allowedLocales": {
+    "bg": true
+  },
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "none",
+
+  // svelte
+  "svelte.enable-ts-plugin": true,
+  "svelte.ask-to-enable-ts-plugin": false,
+  "[svelte]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Code Spell Checker
+  "cSpell.userWords": [
+    "dani",
+    "hralupa",
+    "proto",
+    "protoc",
+    "supabase",
+    "tuhla"
+  ],
+
+  "git.openRepositoryInParentFolders": "never",
+
+  "tailwind-fold.unfoldIfLineSelected": true,
+  "tailwind-fold.showTailwindImage": false,
+  "tailwind-fold.autoFold": false,
+  "tailwindCSS.files.exclude": [
+    "**/.git",
+    "**/node_modules/**",
+    "**/.hg/**",
+    "**/.svn/**"
+  ],
+
+  "go.toolsManagement.autoUpdate": true,
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+
+  // copilot
+  "github.copilot.enable": {
+    "*": true
+  },
+
+  // terminal
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.external.linuxExec": "konsole",
+  "terminal.integrated.tabs.defaultIcon": "console",
+  "terminal.integrated.commandsToSkipShell": [
+    // skip focusing on the explorer when focused in the terminal
+    "workbench.view.explorer"
+  ],
+
+  "workbench.colorTheme": "Atom One Dark",
+  "workbench.preferredDarkColorTheme": "Atom One Dark",
+  "workbench.iconTheme": "eq-material-theme-icons-deepforest",
+  "workbench.activityBar.visible": false,
+
+  "window.menuBarVisibility": "toggle"
+}
