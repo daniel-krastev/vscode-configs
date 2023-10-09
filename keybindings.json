@@ -31,12 +31,12 @@
     "when": "editorTextFocus"
   },
   {
-    "key": "ctrl+shift+k",
+    "key": "ctrl+shift+j",
     "command": "cursorBottom",
     "when": "editorTextFocus"
   },
   {
-    "key": "ctrl+shift+j",
+    "key": "ctrl+shift+k",
     "command": "cursorTop",
     "when": "editorTextFocus"
   },
@@ -53,6 +53,14 @@
     "key": "ctrl+shift+/",
     "command": "editor.action.blockComment",
     "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+k ctrl+g",
+    "command": "editor.action.revealDeclaration"
+  },
+  {
+    "key": "ctrl+k ctrl+p",
+    "command": "editor.action.peekDeclaration"
   },
 
   // file explorer
@@ -106,6 +114,10 @@
   {
     "key": "ctrl+t",
     "command": "terminal.focus"
+  },
+  {
+    "key": "ctrl+shift+d",
+    "command": "workbench.view.extension.dockerView"
   },
   {
     "key": "ctrl+q",
@@ -330,5 +342,14 @@
     "key": "ctrl+shift+a",
     "command": "-notification.acceptPrimaryAction",
     "when": "notificationToastsVisible"
+  },
+  {
+    "key": "ctrl+k ctrl+p",
+    "command": "-workbench.action.showAllEditors"
+  },
+  {
+    "key": "ctrl+shift+d",
+    "command": "-workbench.view.debug",
+    "when": "viewContainer.workbench.view.debug.enabled"
   },
 ]

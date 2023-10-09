@@ -8,13 +8,14 @@
   "files.exclude": {
     "**/.vscode": true,
     "**/.turbo": true,
-    "**/.svelte-kit": true
+    "**/.svelte-kit": true,
+    "**/vite.config.ts.*": true,
+    "**/node_modules": true
   },
 
   "workbench.colorTheme": "Atom One Dark",
   "workbench.preferredDarkColorTheme": "Atom One Dark",
   "workbench.iconTheme": "eq-material-theme-icons-deepforest",
-  "workbench.activityBar.visible": false,
 
   "window.menuBarVisibility": "toggle",
 
@@ -56,7 +57,7 @@
   // tailwind
   "tailwind-fold.unfoldIfLineSelected": true,
   "tailwind-fold.showTailwindImage": true,
-  "tailwind-fold.autoFold": false,
+  "tailwind-fold.autoFold": true,
   "tailwindCSS.files.exclude": [
     "**/.git",
     "**/node_modules/**",
@@ -73,5 +74,10 @@
   // copilot
   "github.copilot.enable": {
     "*": true
+  },
+
+  // python
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
   }
 }
