@@ -79,5 +79,6 @@
   // python
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
-  }
+  },
+  "workbench.activityBar.visible": false
 }
