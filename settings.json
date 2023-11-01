@@ -6,17 +6,17 @@
   "files.insertFinalNewline": true,
   "files.autoGuessEncoding": true,
   "files.exclude": {
-    "**/.vscode": true,
+    "**/.vscode": false,
     "**/.turbo": true,
     "**/.svelte-kit": true,
-    "**/vite.config.ts.*": true,
-    "**/node_modules": true
+    "**/vite.config.ts.*": true
   },
 
   "workbench.colorTheme": "Atom One Dark",
   "workbench.preferredDarkColorTheme": "Atom One Dark",
   "workbench.iconTheme": "eq-material-theme-icons-deepforest",
-
+  "workbench.activityBar.visible": false,
+  
   "window.menuBarVisibility": "toggle",
 
   "editor.maxTokenizationLineLength": 10000000,
@@ -57,7 +57,7 @@
   // tailwind
   "tailwind-fold.unfoldIfLineSelected": true,
   "tailwind-fold.showTailwindImage": true,
-  "tailwind-fold.autoFold": true,
+  "tailwind-fold.autoFold": false,
   "tailwindCSS.files.exclude": [
     "**/.git",
     "**/node_modules/**",
@@ -79,6 +79,5 @@
   // python
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
-  },
-  "workbench.activityBar.visible": false
+  }
 }
