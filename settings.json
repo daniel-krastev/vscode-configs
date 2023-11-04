@@ -6,7 +6,6 @@
   "files.insertFinalNewline": true,
   "files.autoGuessEncoding": true,
   "files.exclude": {
-    "**/.vscode": false,
     "**/.turbo": true,
     "**/.svelte-kit": true,
     "**/vite.config.ts.*": true
@@ -16,7 +15,7 @@
   "workbench.preferredDarkColorTheme": "Atom One Dark",
   "workbench.iconTheme": "eq-material-theme-icons-deepforest",
   "workbench.activityBar.visible": false,
-  
+
   "window.menuBarVisibility": "toggle",
 
   "editor.maxTokenizationLineLength": 10000000,
@@ -44,20 +43,10 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
-  // Code Spell Checker
-  "cSpell.userWords": [
-    "dani",
-    "hralupa",
-    "proto",
-    "protoc",
-    "supabase",
-    "tuhla"
-  ],
-
   // tailwind
   "tailwind-fold.unfoldIfLineSelected": true,
   "tailwind-fold.showTailwindImage": true,
-  "tailwind-fold.autoFold": false,
+  "tailwind-fold.autoFold": true,
   "tailwindCSS.files.exclude": [
     "**/.git",
     "**/node_modules/**",
@@ -79,5 +68,5 @@
   // python
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
-  }
+  },
 }
